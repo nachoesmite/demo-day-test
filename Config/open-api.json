@@ -1,0 +1,21 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+      "title": "A minimal OpenAPI document",
+      "description": "Welcome to your API documentation. Learn more about setting up a documentation portal here: [https://docs.zuplo.com/articles/developer-portal](https://docs.zuplo.com/articles/developer-portal)",
+      "version": "0.0.1"
+    },
+    "paths": {
+      "/v1/hello-world": {
+        "get": {
+          "summary": "Summary of the GET operation",
+          "description": "Description of the GET operation. Supports [CommonMark](https://spec.commonmark.org/0.30/)"
+        },
+        "post": {
+          "summary": "Summary of the POST operation",
+          "description": "Description"
+        }
+      }
+    }
+  }
+  

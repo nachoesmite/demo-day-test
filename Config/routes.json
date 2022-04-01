@@ -1,0 +1,30 @@
+{
+    "routes": [
+      {
+        "label": "What zup?",
+        "path": "/hello-world",
+        "handler": {
+          "export": "default",
+          "module": "$import(./modules/hello-world)"
+        },
+        "methods": ["GET", "POST"],
+        "corsPolicy": "anything-goes",
+        "version": "v1",
+        "policies": {
+          "inbound": []
+        }
+      }
+    ],
+    "versions": [
+      {
+        "name": "none",
+        "pathPrefix": ""
+      },
+      {
+        "name": "v1",
+        "pathPrefix": "/v1"
+      }
+    ],
+    "policies": []
+  }
+  
